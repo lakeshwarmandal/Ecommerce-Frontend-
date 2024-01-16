@@ -46,14 +46,12 @@ const CNavbar = () => {
       >
         <Navbar.Brand as={Link} to="/" className="text-white">
           <img
+            className="img"
             src={
-              "https://cdn-products.eneba.com/resized-products/kMJUV_tti8g1MrT_IuowS7aq00l8kT5RjnxcLa5jE7Q_350x200_2x-0.png"
+              "https://i5.walmartimages.com/dfw/63fd9f59-b3e1/7a569e53-f29a-4c3d-bfaf-6f7a158bfadd/v1/walmartLogo.svg"
             }
-            alt="Logo"
-            className="logo-image rounded-circle"
-            style={{ width: "150px", height: "100px" }}
           />
-          <span className="ml-2"> Walmart</span>
+          <span className="ml-2"></span>
         </Navbar.Brand>
         <Nav.Link as={Link} to="/" className="text-white">
           Menu list
