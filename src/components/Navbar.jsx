@@ -39,10 +39,10 @@ const CNavbar = () => {
   return (
     <>
       <Navbar
-        bg="black"
+        bg="primary"
         expand="lg"
         variant="dark"
-        className="justify-content-between text-dark"
+        className="justify-content-between text-light"
       >
         <Navbar.Brand as={Link} to="/" className="text-white">
           <img

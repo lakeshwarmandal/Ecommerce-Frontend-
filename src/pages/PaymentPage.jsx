@@ -145,7 +145,6 @@ function PaymentPage() {
           </div>
         )}
       </div>
-      <Footer />
     </>
   );
 }
